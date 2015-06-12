@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" >
+
+  </head>
+  <section class="header">
+    <div class="container">
+      <div class="row">
+        <div class="container">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+
+          <h1> Photo Grid Project </h1>
+          <h4> A beautiful responsive grid for your favourite photos.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="image">
+  <section class="gallery">
+      <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+              <h3>City</h3>
+                <img class="band" src="img/city.jpg">
+               <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart">Like</span></a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+               <h3>Couple</h3>
+                <img class="band" src="img/couple.jpg">
+                <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+              <h3>Band</h3>
+                <img class="band" src="img/band.jpg"> 
+                <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Deer</h3>
+                <img class="band" src="img/deer.jpg">
+                <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery1">
+      <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+              <h3>Elephant</h3>
+                <img class="ele" src="img/elephant.jpeg">
+                <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+              <h3>Fox</h3>
+                <img class="ele" src="img/fox.jpeg">
+                <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+             <h3>Moon</h3>
+                <img class="ele" src="img/moon.jpg"> 
+                <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+             <div class="col-md-3 col-sm-6 col-xs-12">
+             <h3>Mountain</h3>
+                <img class="ele" src="img/mountain-sky.jpeg">
+                <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="gallery2">
+      <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h3>Park</h3>
+                  <img class="band" src="img/national-park.jpeg">
+                  <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h3>Ocean</h3>
+                  <img class="band" src="img/ocean-cave.jpg">
+                  <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h3>Pancakes</h3>
+                  <img class="band" src="img/pancakes.gif"> 
+                  <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h3>Sunset</h3>
+                  <img class="band" src="img/sunset.jpg">
+                  <a href="#" class="btn btn-info"><span class="glyphicon glyphicon-heart"></span> Like</a>
+              </div>
+          </div>
+  </section>
+  </section>
+ 
+  <body>
+  </body>
+
+ <script src="js/jquery-1.11.3.min.js"> </script>
+
+ <script>
+  
+  alert ('Hello user!')
+  var x = 1125;
+  var answer = x%2;
+  alert (answer)
+
+var str = new String("Welcome to my Gallery...at");
+alert(str.blink());
+
+var dt = Date();
+   alert ("Date and Time : " + dt ); 
+
+<!--
+function sayHello(name, age)
+{
+   alert( name + " is " + age + " years old.");
+}
+//-->
+
+var mymessage = "Sorry, but right clicks don't work on this page";
+
+function rtclickcheck(keyp){
+  if (navigator.appName == "Netscape" && keyp.which == 3) {
+    alert(mymessage);
+    return false;
+  }
+
+  if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+    alert(mymessage);
+    return false;
+  }
+}
+
+document.onmousedown = rtclickcheck
+//-->
+</script>
+  <script src="js/bootstrap.min.js"> </script>
+</html>
+
